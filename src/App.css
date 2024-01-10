@@ -1,10 +1,10 @@
 /* add your styles here */
 .fourimages{
-    height: 100px;
-    width: 200px;
-    background-color: blanchedalmond;
+    margin-top: 50px;
+    text-align: center;
+    
 }
 .eachElephant{
-    height: 200px;
-    width: 100px;
+ height: 500px;
+ margin: 10px;
 }

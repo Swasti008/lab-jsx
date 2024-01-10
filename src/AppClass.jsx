@@ -27,4 +27,13 @@ export default class AppClass extends Component{
   }
 
   // code here
+  render(){
+    let dataContainer= this.imageData();
+return <div className="fourimages">
+  <h1>Kalvium gallary</h1>
+  {dataContainer.map((element) => (
+     <img src={element.img} alt={element.id} className="eachElephant" />
+    ))}
+</div>
+  }
 }

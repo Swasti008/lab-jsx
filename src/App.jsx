@@ -27,9 +27,11 @@ function App() {
   // code here
   let images = imageData();
   return (
-    <div className='fourimages'>{images.map((element) => {
+    <div className='fourimages'>
+      <h1>Kalvium gallary</h1>
+      {images.map((element) => (
       <img src={element.img} alt={element.id} className="eachElephant" />
-    })}</div>
+    ))}</div>
   )
 }
 
